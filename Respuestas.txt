@@ -1,0 +1,11 @@
+f) Inspeccione la carpeta donde inicializó el repositorio: ¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+
+El archivo no aparece pues esta en una rama diferente con la que todavía no hemos combinado la principal (main).
+
+* En VSCode vuelva al “Source Control” ¿Qué diferencias nota?
+
+Aparece como una bifurcación de la rama main que indica que se realizó una modificación en la rama Opcion_2 y se diferencia de la main con un color naranja.
+
+*Después de realizar el comando merge, En VSCode vuelva al “Source Control” vea los cambios, ¿Qué nota?
+
+La bifurcación aparece conectada con la rama principal desde el commit que la creó hasta el commit del merge donde se combinó ambas ramas.
