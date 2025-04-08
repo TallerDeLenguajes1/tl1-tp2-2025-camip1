@@ -14,7 +14,7 @@ int main(){
         for(j=0; j<M; j++)
         {
             *(punt + (i * M + j))=1+rand()%100;
-            printf("%d\t", *(punt + (i * M + j))); //o %d y tipo int 
+            printf("%d\t", *(punt + (i * M + j))); 
         }
         printf("\n");
     }
