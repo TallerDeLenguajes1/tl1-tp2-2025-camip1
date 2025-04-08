@@ -14,7 +14,7 @@ int main(){
         for(j=0; j<M; j++)
         {
             *(punt + (i * M + j))=1+rand()%100;
-            printf("%d\t", *(punt + (i * M + j))); 
+            printf("%d\t", *(punt + (i * M + j))); //notacion indexada
         }
         printf("\n");
     }
