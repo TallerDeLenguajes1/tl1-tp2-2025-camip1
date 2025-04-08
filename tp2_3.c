@@ -18,5 +18,15 @@ int main(){
         }
         printf("\n");
     }
+    printf("\n");
+    for(i=0; i<N; i++)
+    {
+        for(j=0; j<M; j++)
+        {            
+            printf("%d\t", mt[i][j]); //notacion indexada
+        }
+        printf("\n");
+    }
+
     return 0;
 }
