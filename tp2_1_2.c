@@ -5,10 +5,11 @@
 int main(){
     int i;
     double vt[N];
+    double *punt=vt;
     for(i = 0; i<N; i++)
     {
-        *(vt+i)=1+rand()%100;
-        printf("\n%f", *(vt+i));
+        *(punt+i)=1+rand()%100;
+        printf("\n%f", *(punt+i));
     }
     return 0;
 }
